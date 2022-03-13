@@ -1,5 +1,25 @@
+html 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%) ) ;
+}
+
+.container
+{
+    padding: 5rem;
+    background-color: #fff;
+}
+
 .attribution 
 { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 50px;
     font-size: 11px; 
     text-align: center; 
 }
