@@ -5,12 +5,24 @@ html
     align-items: center;
     height: 100vh;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%) ) ;
+    font-family: 'Kumbh Sans', serif;
+}
+
+h2
+{
+    font-size: 1em;
+    font-weight: normal;
 }
 
 .container
 {
     padding: 5rem;
     background-color: #fff;
+}
+
+.QAs 
+{
+    font-size: .9em;
 }
 
 .attribution 
