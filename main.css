@@ -10,16 +10,36 @@ html
 
 h2
 {
+    display: flex;
+    align-items: center;
     font-size: 1em;
     font-weight: normal;
     padding-top: 1rem;
+    margin-bottom: 1rem;
     border-top: 1px solid #000;
 }
 
 .container
 {
+    display: flex;
+    align-items: center;
+    columns: 2; 
+    min-width: 70vw;
+    min-height: 50vh;
     padding: 5rem;
     background-color: #fff;
+    background-image: url(images/illustration-woman-online-desktop.svg), url(images/bg-pattern-desktop.svg);
+    background-size: 566px 431px, 1159px 1134px;
+    background-repeat: no-repeat;
+    background-position-x: -6em, -43em;
+    background-position-y: 5rem, -22em;
+    border-radius: 2rem;
+}
+
+.main-img 
+{
+    float: left;
+    background-position-x: -10em;
 }
 
 .list 
@@ -27,13 +47,15 @@ h2
     max-width: 25rem;
 }
 
-.arrows 
-{
+.arrows
+{  
+    float: right;
     margin-left: 1rem;
 }
 
-.QAs 
+.As 
 {
+    display: none;
     font-size: .9em;
 }
 
