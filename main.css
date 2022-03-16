@@ -17,6 +17,7 @@ h2
     padding-top: 1rem;
     margin-bottom: 1rem;
     border-top: 1px solid #000;
+    position: relative;
 }
 
 .container
@@ -24,7 +25,7 @@ h2
     display: flex;
     align-items: center;
     columns: 2; 
-    min-width: 70vw;
+    min-width: 60vw;
     min-height: 50vh;
     padding: 5rem;
     background-color: #fff;
@@ -34,28 +35,29 @@ h2
     background-position-x: -6em, -43em;
     background-position-y: 5rem, -22em;
     border-radius: 2rem;
-}
-
-.main-img 
-{
-    float: left;
-    background-position-x: -10em;
+    position: relative;
 }
 
 .list 
 {
-    max-width: 25rem;
+    position: absolute;
+    right: 0;
+    margin-right: 5rem;
+    align-items: center;
+    width: 25rem;
 }
 
 .arrows
 {  
-    float: right;
+
+    position: absolute;
+    right: 0;
     margin-left: 1rem;
 }
 
 .As 
 {
-    display: none;
+    /* display: none; */
     font-size: .9em;
 }
 
