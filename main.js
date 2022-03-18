@@ -1,8 +1,8 @@
-$(document).ready(function()
+$(document).ready(() =>
 {
     
     $('h2').click(function()
     {
-        $(this).siblings('.As').slideToggle();
+        $(event.currentTarget).next('.As').slideToggle();
     });
 });
