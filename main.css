@@ -38,6 +38,13 @@ h2
     position: relative;
 }
 
+.box
+{
+    position: absolute;
+    left: -8rem;
+    bottom: 12rem;
+}
+
 .list 
 {
     position: absolute;
