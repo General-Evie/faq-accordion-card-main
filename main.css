@@ -6,6 +6,13 @@ html
     height: 100vh;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%) ) ;
     font-family: 'Kumbh Sans', serif;
+    color: hsl(238, 29%, 16%);
+}
+
+h1 
+{
+    font-size: 2.25em;
+    margin-bottom: 4rem
 }
 
 h2
@@ -14,9 +21,9 @@ h2
     align-items: center;
     font-size: 1em;
     font-weight: normal;
-    padding-top: 1rem;
-    margin-bottom: 1rem;
-    border-top: 1px solid #000;
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
     position: relative;
     cursor: pointer;
 }
@@ -26,7 +33,7 @@ h2
     display: flex;
     align-items: center;
     columns: 2; 
-    min-width: 60vw;
+    min-width: 50vw;
     min-height: 50vh;
     padding: 5rem;
     background-color: #fff;
@@ -50,7 +57,7 @@ h2
 {
     position: absolute;
     right: 0;
-    margin-right: 5rem;
+    margin-right: 8rem;
     align-items: center;
     width: 25rem;
 }
@@ -82,4 +89,20 @@ h2
 .attribution a 
 { 
     color: hsl(228, 45%, 44%); 
+}
+
+h2:hover, 
+h2:focus 
+{
+    color: hsl(14, 88%, 65%);
+} 
+
+.flip-arrow 
+{
+    transform: rotateX(180deg);
+}
+
+.bold
+{
+    font-weight: 700;
 }
