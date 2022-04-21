@@ -53,6 +53,11 @@ h2
     bottom: 12rem;
 }
 
+.mobile, .woman
+{
+    display: none;
+}
+
 .list 
 {
     position: absolute;
@@ -113,4 +118,75 @@ h2:focus
 {
     border-bottom: none;
     padding-bottom: 0;
+}
+
+@media (max-width: 375px) 
+{
+    h1 
+    {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    h2 
+    {
+        font-size: .75em;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .container 
+    {
+        max-width: 10vw;
+        max-height: 10vh;
+        padding-top: 7rem;
+        padding-bottom: 2rem; 
+        background-image: none;
+        position: relative;
+    }
+
+    .box
+    {
+        display: none;
+    }
+
+    .mobile
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 3.5rem;
+    }
+
+    .woman 
+    {
+        display: block;
+        position: absolute;
+        width: 15rem;
+        left: 3.5rem;
+        top: -6.75rem;
+    }
+
+    .list 
+    {
+        width: 18rem;
+        margin-right: 1.75rem;
+    }
+
+    .As 
+    {
+        font-size: .65em;
+    }
+
+    h2:hover, 
+    h2:focus 
+    {
+        color: #fff;
+    } 
+
+    .attribution 
+{ 
+    margin: 19px;
+}
 }
