@@ -122,11 +122,16 @@ h2:focus
 
 @media (max-width: 375px) 
 {
+    html 
+    {
+        height: 100vh;
+    }
+
     h1 
     {
         font-size: 2em;
         text-align: center;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     h2 
